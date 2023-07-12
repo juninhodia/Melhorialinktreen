@@ -1,0 +1,34 @@
+@import url(style/header.css);
+@import url(style/banner.css);
+@import url(style/links.css);
+@import url(style/footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600&display=swap');
+
+:root{
+
+    --tamanho-do-menu:4.37rem;
+
+    --cor-de-fundo:#f2f2f3;
+
+    --cor-principal:#FFBE05;
+    --cor-secundario:#fff159;
+    --cor-terceario:#CC9300;
+
+    --cor-em-degrad:linear-gradient(180deg, var(--cor-principal) 30%, var(--cor-de-fundo) 100%);
+    --cor-em-degrad-links:linear-gradient(97.54deg, var(--cor-principal) 35.49%, var(--cor-secundario) 165.37%);
+
+    --font-principal:'Poppins', sans-serif;
+
+    --texto-logo:#032F48;
+    --texto-primario:hsl(210, 11%, 15%);
+    --texto-secundario:hsl(210, 9%, 31%, 1);
+    --texto-terceario:hsl(0, 0%, 47%);
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 14px;
+    font-weight: 400;
+}

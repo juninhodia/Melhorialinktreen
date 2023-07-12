@@ -1,0 +1,70 @@
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.links__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.links__item__ancora {
+    border: 1px solid var(--cor-principal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+
+    text-decoration: none;
+    color: var(--texto-logo);
+
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 10px;
+
+}
+
+.icone__imagem {
+    width: 1rem;
+    text-align: center;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 14;
+    font-weight: 500;
+}
+
+.anuncio {
+    background: var(--cor-em-degrad);
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.anunio__empresa {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    padding: 1rem;
+    overflow-x: scroll;
+    margin-bottom: 3rem;
+}
+.anuncio__imagem {
+    display: flex;
+    gap: .6rem;
+}
+.anuncio__imagem img {
+    width: 100%;
+    border-radius: 6px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
